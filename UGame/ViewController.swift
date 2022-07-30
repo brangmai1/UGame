@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var currentValude: Int = 50
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,9 +16,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
+        let message = "The current value of the slider is: \(currentValude)"
+        
         let alert = UIAlertController (
             title: "Alert Description",
-            message: "Alert button clicked",
+            message: message,
             preferredStyle: .alert)
         
         let action = UIAlertAction(
@@ -27,6 +30,12 @@ class ViewController: UIViewController {
 
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
+        
+    }
+    
+    @IBAction func sliderMoved(_ slider: UISlider) {
+        currentValude = lroundf(slider.value)
+        
         
     }
 
