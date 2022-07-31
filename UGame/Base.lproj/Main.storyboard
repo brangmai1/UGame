@@ -105,10 +105,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="slider" destination="Rnn-Eq-L31" id="xOd-V0-qhH"/>
+                        <outlet property="targetLabel" destination="YP8-9L-OyL" id="rGF-YO-I97"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29.23538230884558" y="69.599999999999994"/>
+            <point key="canvasLocation" x="130" y="-36"/>
         </scene>
     </scenes>
     <resources>
