@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        startNewRound()
-                
         // Do any additional setup after loading the view.
+        
+        startNewGame()
     }
     
     func startNewRound() {
@@ -45,38 +45,54 @@ class ViewController: UIViewController {
     @IBAction func showAlert() {
         
         let difference = abs(targetValue - currentValude)
-        let points = 100 - difference
-        score += points
-
+        var points = 100 - difference
         
-        let message = "The current value of the slider is: \(currentValude)"
-                        + "\nThe target value is: \(targetValue)"
-                        + "\nThe difference is: \(difference)"
+        
+        let title: String
+        if difference == 0 {
+            title = "Perfect"
+            points += 100
+        } else if difference < 5 {
+            title = "Pretty close"
+            points += 50
+        } else if difference < 10 {
+            title = "Not too bad"
+        } else {
+            title = "Not even close"
+        }
+        
+        score += points
+        let message = "\nThe target value was \(targetValue)."
+                        + "\nYou placed the slider at \(currentValude)."
                         + "\nYou scored \(points) points."
         
         let alert = UIAlertController (
-            title: "Result",
+            
+            title: title,
             message: message,
             preferredStyle: .alert)
         
         let action = UIAlertAction(
             title: "Dismiss",
             style: .default,
-            handler: nil)
+            handler: { _ in
+                self.startNewRound()
+            })
 
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
-        
-        startNewRound()
-        
+                
     }
     
     @IBAction func sliderMoved(_ slider: UISlider) {
         currentValude = lroundf(slider.value)
-        
-        
     }
-
-
+    
+    
+    @IBAction func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+    }
 }
 

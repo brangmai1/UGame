@@ -60,6 +60,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Start Over"/>
+                                <connections>
+                                    <action selector="startNewGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="zOu-Rq-8pZ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbI-05-kih">
                                 <rect key="frame" x="407" y="302" width="56" height="24"/>
