@@ -26,12 +26,19 @@ class ViewController: UIViewController {
         startNewGame()
     }
     
+    @IBAction func startNewGame() {
+        score = 0
+        round = 0
+        startNewRound()
+    }
+    
     func startNewRound() {
         round += 1
         roundLabel.text = String(round)
         
         targetValue = Int.random(in: 1...100)
-        currentValude = lroundf(slider.value)
+//        currentValude = lroundf(slider.value)
+        currentValude = 50
         slider.value = Float(currentValude)
         
         updateLabels()
@@ -43,12 +50,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert() {
-        
         let difference = abs(targetValue - currentValude)
         var points = 100 - difference
-        
-        
         let title: String
+        
         if difference == 0 {
             title = "Perfect"
             points += 100
@@ -67,7 +72,6 @@ class ViewController: UIViewController {
                         + "\nYou scored \(points) points."
         
         let alert = UIAlertController (
-            
             title: title,
             message: message,
             preferredStyle: .alert)
@@ -89,10 +93,6 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func startNewGame() {
-        score = 0
-        round = 0
-        startNewRound()
-    }
+    
 }
 
