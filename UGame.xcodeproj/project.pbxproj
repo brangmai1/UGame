@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DD7281628A3745B0087FEA3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7281528A3745B0087FEA3 /* AboutViewController.swift */; };
 		9DE29B9F2893A6740020A5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */; };
 		9DE29BA12893A6740020A5B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */; };
 		9DE29BA32893A6740020A5B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29BA22893A6740020A5B4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9DD7281528A3745B0087FEA3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		9DE29B9B2893A6740020A5B4 /* UGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */,
 				9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */,
 				9DE29BA22893A6740020A5B4 /* ViewController.swift */,
+				9DD7281528A3745B0087FEA3 /* AboutViewController.swift */,
 				9DE29BA42893A6740020A5B4 /* Main.storyboard */,
 				9DE29BA72893A6780020A5B4 /* Assets.xcassets */,
 				9DE29BA92893A6780020A5B4 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				9DE29BA32893A6740020A5B4 /* ViewController.swift in Sources */,
 				9DE29B9F2893A6740020A5B4 /* AppDelegate.swift in Sources */,
+				9DD7281628A3745B0087FEA3 /* AboutViewController.swift in Sources */,
 				9DE29BA12893A6740020A5B4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
