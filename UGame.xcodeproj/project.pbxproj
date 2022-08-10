@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9DD7281628A3745B0087FEA3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD7281528A3745B0087FEA3 /* AboutViewController.swift */; };
+		9DD7281A28A38B650087FEA3 /* UGame.html in Resources */ = {isa = PBXBuildFile; fileRef = 9DD7281928A38B650087FEA3 /* UGame.html */; };
 		9DE29B9F2893A6740020A5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */; };
 		9DE29BA12893A6740020A5B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */; };
 		9DE29BA32893A6740020A5B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE29BA22893A6740020A5B4 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9DD7281528A3745B0087FEA3 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		9DD7281928A38B650087FEA3 /* UGame.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UGame.html; sourceTree = "<group>"; };
 		9DE29B9B2893A6740020A5B4 /* UGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				9DE29B9E2893A6740020A5B4 /* AppDelegate.swift */,
 				9DE29BA02893A6740020A5B4 /* SceneDelegate.swift */,
 				9DE29BA22893A6740020A5B4 /* ViewController.swift */,
+				9DD7281928A38B650087FEA3 /* UGame.html */,
 				9DD7281528A3745B0087FEA3 /* AboutViewController.swift */,
 				9DE29BA42893A6740020A5B4 /* Main.storyboard */,
 				9DE29BA72893A6780020A5B4 /* Assets.xcassets */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DE29BAB2893A6780020A5B4 /* LaunchScreen.storyboard in Resources */,
+				9DD7281A28A38B650087FEA3 /* UGame.html in Resources */,
 				9DE29BA82893A6780020A5B4 /* Assets.xcassets in Resources */,
 				9DE29BA62893A6740020A5B4 /* Main.storyboard in Resources */,
 			);
