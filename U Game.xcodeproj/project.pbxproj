@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DE29B962893A6740020A5B4 /* Build configuration list for PBXProject "UGame" */;
+			buildConfigurationList = 9DE29B962893A6740020A5B4 /* Build configuration list for PBXProject "U Game" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -297,6 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "U Game";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,6 +327,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "U Game";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -349,7 +351,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DE29B962893A6740020A5B4 /* Build configuration list for PBXProject "UGame" */ = {
+		9DE29B962893A6740020A5B4 /* Build configuration list for PBXProject "U Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DE29BAD2893A6780020A5B4 /* Debug */,
